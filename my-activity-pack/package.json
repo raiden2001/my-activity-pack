@@ -1,0 +1,32 @@
+{
+    "name": "vertigis-workflow-project",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "license": "UNLICENSED",
+    "author": "",
+    "type": "module",
+    "scripts": {
+        "build": "vertigis-workflow-sdk build",
+        "generate": "vertigis-workflow-sdk generate",
+        "start": "vertigis-workflow-sdk start",
+        "lint": "eslint --ext .ts,.tsx",
+        "prettier": "prettier --write \"**/*.json\" \"**/*.js\" \"**/*.ts\" \"**/*.tsx\""
+    },
+    "devDependencies": {
+        "@vertigis/workflow": "5.54.1",
+        "@vertigis/workflow-sdk": "6.1.3",
+        "prettier": "^3.3.1",
+        "typescript": "^6.0.3"
+    },
+    "allowScripts": {
+        "@mui/x-telemetry": false,
+        "@vaadin/vaadin-usage-statistics": false
+    },
+    "browserslist": [
+        "last 2 chrome versions",
+        "last 2 edge versions",
+        "last 2 firefox versions",
+        "last 2 safari versions"
+    ]
+}
