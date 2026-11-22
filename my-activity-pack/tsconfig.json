@@ -1,4 +1,8 @@
 {
     "extends": "@vertigis/workflow-sdk/config/tsconfig.json",
-    "include": ["eslint.config.js", "src"]
+   // "include": ["eslint.config.js", "src"]
+   "compilerOptions":{
+    "target": "es5"
+   },
+   "include":["src"]
 }
