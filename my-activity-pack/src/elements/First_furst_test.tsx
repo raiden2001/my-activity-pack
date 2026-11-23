@@ -34,5 +34,7 @@ const First_furst_testElementRegistration: FormElementRegistration<First_furst_t
     getInitialProperties: () => ({ value: "Hello World" }),
     id: "First_furst_test",
 };
-
+console.log("First_furst_test initialized");
+console.log("First_furst_testElementRegistration:", First_furst_testElementRegistration);
+console.log(First_furst_testElementRegistration.getInitialProperties());
 export default First_furst_testElementRegistration;
