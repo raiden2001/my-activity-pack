@@ -34,7 +34,7 @@ export default class MapPopActivity implements IActivityHandler {
     execute(inputs: MapPopInputs): MapPopOutputs {
         return {
             result: `input1: ${inputs.input1}, input2: ${
-                inputs.input2 || "undefined"
+                inputs.input2 ?? "undefined" // chagne form // ->> ??
             }`,
         };
     }
